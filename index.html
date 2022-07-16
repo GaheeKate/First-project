@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Gahee Choi" />
+    <meta name="description" content="hahaha" />
+    <title>My First Web Page</title>
+    <link rel="icon" href="logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <nav aria-label="primary-navagation">
+        <div>Hello World!</div>
+        <a href="img/image_0.jpg"> Image </a>
+        <a href="#contact"> contact me </a>
+      </nav>
+      <div>
+        this is <em>first</em> web page. <br />
+        does <strong>it</strong> work <br />
+        h h
+      </div>
+    </header>
+    <section id="vacation">
+      <ul>
+        <li>what is this</li>
+        <li>what is this</li>
+        <li>what is this</li>
+      </ul>
+    </section>
+
+    <article id="html">
+      <figure>
+        <img
+          src="img/logo.png"
+          alt="HTML5logo"
+          title="Power of"
+          width="200px"
+          height="50px"
+          loading="lazy"
+        />
+        <figcaption>
+          cation for the image
+          <code>Halo World</code>
+        </figcaption>
+      </figure>
+    </article>
+    <hr />
+
+    <div>Hello World!</div>
+    <div>this is first web page.</div>
+    <hr />
+    <table>
+      <caption>
+        my daily
+      </caption>
+      <thead>
+        <th scope="col" colspan="3">&nbsp;counting nums</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>one</td>
+          <td>two</td>
+          <td>three</td>
+        </tr>
+        <tr>
+          <td>넷</td>
+          <td>다</td>
+          <td>여</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div>My daily schedule</div>
+    <div>Let me tell you..</div>
+    <a href="logo.png" download>to know</a>
+    &lt;&lt;&lt; &copy;Gahee &gt;&gt;&gt;
+    <abbr title="network">MDN</abbr>
+    <li>contact me at <a href="mailto:random@email.com">my email</a></li>
+    <li>contact me at <a href="tel:+123456789">my phone</a></li>
+    <li>
+      contact me at <a href="https://google.ca" target="_blank">google</a>
+    </li>
+    <p><time datetime="PT3H">time</time></p>
+    <input type="password" name="?" id="?" />
+
+    <button>click me</button>
+    <nav aria-label="primary-navagation">
+      <a href="what.html">learn HTML</a>
+    </nav>
+    <footer>
+      <article id="contact">
+        <h2>I'd reall like to hear from you</h2>
+        <form action="http://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Personal Info</legend>
+          <label for="firstName">first name:</label>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="Jame"
+            autocomplete="on"
+            required
+            autofocus
+          />
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="555-555-555"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+            required
+          />
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>What is your favorite food?</legend>
+          <p>
+            <input type="radio" name="food" id="tacos" value="tacos">
+            <label for="tacos">Tacos</label>
+          </p>
+          <p>
+            <input type="radio" name="food" id="pizza" value="pizza">
+            <label for="pizza">pizza</label>
+          </p>
+          <p>
+            <input type="radio" name="food" id="Sushi" value="Sushi">
+            <label for="Sushi">Sushi</label>
+          </p>
+          <p>
+            <input type="radio" name="food" id="other" value="other">
+            <label for="other">other</label>
+          </p>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Do you have pet?</legend>
+          <input type="checkbox" name="pets" id="dogs" value="dogs">
+          <label for="dogs">Dog</label>
+
+          <input type="checkbox" name="pets" id="cats" value="cats">
+          <label for="cats">cat</label>          
+
+          <input type="checkbox" name="pets" id="Fish" value="Fish">
+          <label for="Fish">Fish</label>    
+
+          <input type="checkbox" name="pets" id="otherpet" value="otherpet">
+          <label for="otherpet">other</label>
+
+       
+          
+
+        </fieldset>
+      
+
+        <br>
+
+        <fieldset>
+
+          <label for="message">your message:</label>
+          <br>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="type your msg"> </textarea>
+        </fieldset>
+        </form>
+      </article>
+      <p>
+        <label for="coffee">Favorite Coffee;</label>
+        <select name="coffee" id="coffee" multiple size="5">
+          <optgroup label="coffee" id="coffee">
+            <option value="regular coffee">Regular coffee</option>
+            <option value="Iced coffee" selected>Iced coffee</option>
+          </optgroup>
+          <optgroup label="Espresso Drinks" id="Espresso Drinks">
+            <option value="latte">latte</option>
+            <option value="other">Other</option>
+          </optgroup>
+        </select>
+      </p>
+      <!-- <p>
+        <label for="coffee">Favorite Coffee;</label>
+        <input type="text" name="" id="" list="coffee-list">
+        <datalist id="coffee-list">
+          <option value="regular coffee">
+          <option value="Iced coffee" >
+          <option value="latte">
+          <option value="other">
+        </datalist> -->
+      
+
+      </p>
+      <img
+        src="img/image_1.jpg"
+        alt="HTML5logo"
+        title="Power of"
+        loading="lazy"
+      />
+    </footer>
+  </body>
+</html>

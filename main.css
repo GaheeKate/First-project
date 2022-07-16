@@ -1,0 +1,31 @@
+html {
+    font-size: 20px;
+}
+body {
+    background-color: black;
+
+    color: darkgreen;
+}
+a{
+    color: aliceblue;
+
+}
+a:visited{
+    color: blue;
+    
+}
+a:hover, a:active{
+    color: purple;
+    
+}
+
+table, tr, th, td, caption{
+
+    border: 2px solid ;
+    border-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    text-align: center;
+
+}
